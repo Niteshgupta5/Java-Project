@@ -75,7 +75,7 @@ class Test
     /*  Function to display the status of the stack */
     public void display()
     {
-        System.out.print("\nStack = ");
+        System.out.print("\nElements in Stack = ");
         int n = getSize();
         if (n == 0)
         {
