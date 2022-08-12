@@ -154,3 +154,150 @@ public class Stack_queue
         } while (ch == 'Y'|| ch == 'y');                 
     }
 }
+
+/*
+
+    -- OUTPUT--
+Stack Using Two Queues
+
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+1
+Enter integer element to push
+30
+
+Elements in Stack = 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+1
+Enter integer element to push
+40
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+3
+Peeked Element is = 40
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+4
+Empty status = false
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+Stack Using Two Queues
+
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+1
+Enter integer element to push
+30
+
+Elements in Stack = 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+1
+Enter integer element to push
+40
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+3
+Peeked Element is = 40
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+4
+Empty status = false
+
+Elements in Stack = 40 30
+
+Do you want to continue (Type y or n)
+
+y
+
+Stack Operations
+1. push
+2. pop
+3. peek
+4. check empty
+5. size
+*/
