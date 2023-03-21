@@ -1,0 +1,56 @@
+/* Navbar */
+nav .navbar-brand{
+    color: rgb(4 4 163) !important;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 6rem;
+}
+
+nav .navbar-nav .nav-item{
+    font-size: 1rem;
+    padding: 0px 1rem;
+}
+
+nav .navbar-nav .nav-item a{
+    color: rgb(4 4 116) !important;
+    font-weight: 600;
+}
+
+
+nav .navbar-nav .nav-item button{
+   padding: 10px 30px;
+   background-color: #ff8100;
+   color: white;
+   font-weight: 700;
+}
+
+
+/* Home Section */
+.Home-section{
+    min-height: 50vh;
+}
+
+.Home-section .left-part-div{
+    padding-left: 14rem;
+}
+
+.Home-section .left-part h1{
+    color: rgb(4 4 163) !important;
+    font-weight: 700;
+    font-size: 3.7rem;
+}
+
+
+.Home-section .right-part .upperimg{
+    border-radius: 10px;
+    margin-left: 4rem; 
+}
+
+.Home-section .right-part .lowerimg{
+    border-radius: 10px;
+    margin-left: 2rem;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0; 
+}
