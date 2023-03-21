@@ -30,6 +30,10 @@ nav .navbar-nav .nav-item button{
     min-height: 50vh;
 }
 
+.Home-section .container-fluid{
+   background-image: url('./assets/images/pattern-3.png');
+}
+
 .Home-section .left-part-div{
     padding-left: 14rem;
 }
@@ -40,6 +44,12 @@ nav .navbar-nav .nav-item button{
     font-size: 3.7rem;
 }
 
+.Home-section .left-part-div button{
+    background-color: #ff8100;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+}
 
 .Home-section .right-part .upperimg{
     border-radius: 10px;
@@ -51,6 +61,13 @@ nav .navbar-nav .nav-item button{
     margin-left: 2rem;
     position: absolute;
     z-index: 2;
-    bottom: 0;
+    bottom: -60px;
     left: 0; 
+}
+
+.Home-section .right-part .shapeimg{
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    right: 64px;
 }
