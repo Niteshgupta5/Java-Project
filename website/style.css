@@ -1,8 +1,5 @@
 /* Navbar */
 nav .navbar-brand{
-    color: rgb(4 4 163) !important;
-    font-size: xx-large;
-    font-weight: 700;
     padding-left: 6rem;
 }
 
@@ -27,29 +24,53 @@ nav .navbar-nav .nav-item button{
 
 /* Home Section */
 .Home-section{
-    min-height: 50vh;
+    min-height: 70vh;
+}
+
+.Home-section .container-fluid{
+    height: 70vh;
 }
 
 .Home-section .container-fluid{
    background-image: url('./assets/images/pattern-3.png');
+   background-repeat: no-repeat;
+   background-position: 60%;
+   background-size: 60%;
 }
 
 .Home-section .left-part-div{
-    padding-left: 14rem;
+    padding-left: 23rem;
 }
 
 .Home-section .left-part h1{
     color: rgb(4 4 163) !important;
     font-weight: 700;
-    font-size: 3.7rem;
+    font-size: 4rem;
 }
 
 .Home-section .left-part-div button{
     background-color: #ff8100;
-    padding: 10px 15px;
+    padding: 10px 18px;
     color: white;
     font-weight: 700;
+    font-size: 14px;
 }
+
+.Home-section .left-part-outer-div span{
+   display: inline-block;
+}
+
+.Home-section .left-part-outer-div span h2{
+    color: rgb(4 4 163) !important;
+    font-weight: 700;
+    font-size: 2.6rem;
+ }
+
+ .Home-section .left-part-outer-div span P{
+    color: rgb(4 4 163) !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+ }
 
 .Home-section .right-part .upperimg{
     border-radius: 10px;
@@ -71,3 +92,32 @@ nav .navbar-nav .nav-item button{
     top: -10px;
     right: 64px;
 }
+
+/* About Section */
+#aboutsection{
+    height: auto;
+ }
+
+ #aboutsection .aboutimg{
+    border-radius: 10px;
+ }
+
+ #aboutsection .about-div{
+    padding-left: 5rem;
+ }
+
+ #aboutsection .about-div .fp{
+    color:#ff8100;
+    font-weight: 800;
+    margin-top: 3rem;
+ }
+
+ #aboutsection .about-div h1{
+    color:rgb(4 4 163);
+    font-size:4rem;
+    font-weight: 700;
+ }
+
+ #aboutsection .about-div .sp{
+    color:#757575;
+ }
